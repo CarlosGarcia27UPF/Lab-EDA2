@@ -16,3 +16,15 @@ typedef struct user {
     char location[50];
     char preferences[5][50];
 } User;
+
+int main();
+
+__attribute__((unused)) int menu();
+int insert_user();
+int list_users();
+int operate_user();
+int send_friend_request();
+int manage_friend_requests();
+int make_post();
+int list_user_posts();
+

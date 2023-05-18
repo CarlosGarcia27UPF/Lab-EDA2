@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <adoctint.h>
+#include "main.h"
 
 
 int main() {
@@ -21,6 +23,20 @@ int main() {
         scanf("%s", user.preferences[i]);
     }
 }
+
+void list_user_posts();
+
+void make_post();
+
+void manage_friend_requests();
+
+void send_friend_request();
+
+void insert_user();
+
+void list_users();
+
+void operate_user();
 
 int menu() {
 
@@ -74,10 +90,40 @@ int menu() {
     return 0;
 }
 
+void operate_user() {
+
+}
+
+void list_users() {
+
+}
+
+void insert_user() {
+
+}
+
+void send_friend_request() {
+
+}
+
+void manage_friend_requests() {
+
+}
+
+void make_post() {
+
+}
+
+void list_user_posts() {
+
+}
+
 typedef struct Node {
     User user;
     struct Node* next;
 } Node;
+
+void print_user(User user);
 
 void add_user(Node** head, User user) {
     Node* new_node = malloc(sizeof(Node));
@@ -103,3 +149,14 @@ void list_users(Node* head) {
         current_node = current_node->next;
     }
 }
+
+void print_user(User user) {
+
+}
+
+
+
+
+
+
+
