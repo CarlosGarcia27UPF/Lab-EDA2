@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-typedef struct user {
-    char username[50];
-    int age;
-    char email[50];
-    char location[50];
-    char preferences[5][50];
-} User;
 
 int main() {
     User user;
