@@ -1,68 +1,41 @@
 #include <stdio.h>
-#include <adoctint.h>
-#include "main.h"
+#include <stdlib.h>
+#include <string.h>
 
-typedef struct user {
-    char username[50];
+// Define the user struct
+typedef struct {
+    char name[50];
     int age;
     char email[50];
     char location[50];
     char preferences[5][50];
-} user;
+} User;
 
-int main() {
-    user user;
+// Declare global variables
+User *users;
+int num_users = 0;
 
-    printf("Enter your username: ");
-    scanf("%s", user.username);
-
-    printf("Enter your age or year of birth: ");
-    scanf("%d", &user.age);
-
-    printf("Enter your email address: ");
-    scanf("%s", user.email);
-
-    printf("Enter your current location (city): ");
-    scanf("%s", user.location);
-
-    printf("Enter your 5 preferences, one per line:\n");
-    for (int i = 0; i < 5; i++) {
-        scanf("%s", user.preferences[i]);
-    }
-}
-
-void list_user_posts();
-
-void make_post();
-
-void manage_friend_requests();
-
-void send_friend_request();
-
+// Declare function prototypes
 void insert_user();
-
 void list_users();
-
 void operate_user();
 
-int menu() {
+int main() {
+    int choice;
+    users = malloc(sizeof(User));
 
-    int choice = 0;
-
-    while (choice != 7) {
-        printf("Select an option:\n");
+    do {
+        // Display menu options
+        printf("\n\nSocial Network Menu\n");
         printf("1. Insert a new user\n");
         printf("2. List all existing users\n");
         printf("3. Operate as a specific user\n");
-        printf("4. Send friend requests\n");
-        printf("5. Manage pending requests\n");
-        printf("6. Make a post\n");
-        printf("7. List the posts of the selected user\n");
-        printf("8. Exit\n");
+        printf("4. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
-        switch (choice) {
+        // Call the appropriate function based on user choice
+        switch(choice) {
             case 1:
                 insert_user();
                 break;
@@ -73,88 +46,105 @@ int menu() {
                 operate_user();
                 break;
             case 4:
-                send_friend_request();
-                break;
-            case 5:
-                manage_friend_requests();
-                break;
-            case 6:
-                make_post();
-                break;
-            case 7:
-                list_user_posts();
-                break;
-            case 8:
                 printf("Exiting...\n");
                 break;
             default:
-                printf("Invalid choice.\n");
+                printf("Invalid choice. Please try again.\n");
         }
+    } while (choice != 4);
 
-        printf("\n");
-    }
-
+    free(users);
     return 0;
 }
 
-void operate_user() {
+void insert_user() {
+    // Prompt user to enter user details
+    printf("\nInsert a new user\n");
+    printf("Enter name: ");
+    scanf("%s", users[num_users].name);
+    printf("Enter age: ");
+    scanf("%d", &users[num_users].age);
+    printf("Enter email: ");
+    scanf("%s", users[num_users].email);
+    printf("Enter location: ");
+    scanf("%s", users[num_users].location);
+    printf("Enter 5 preferences (separated by spaces): ");
+    for (int i = 0; i < 5; i++) {
+        scanf("%s", users[num_users].preferences[i]);
+    }
 
+    // Increment the number of users and allocate memory for the new user
+    num_users++;
+    users = realloc(users, (num_users + 1) * sizeof(User));
+
+    printf("User added successfully!\n");
 }
 
 void list_users() {
-
-}
-
-void insert_user() {
-
-}
-
-void send_friend_request() {
-
-}
-
-void manage_friend_requests() {
-
-}
-
-void make_post() {
-
-}
-
-void list_user_posts() {
-
-}
-
-typedef struct Node {
-    user user;
-    struct Node* next;
-} Node;
-
-void print_user(User user);
-
-void add_user(Node** head, user user) {
-    Node* new_node = malloc(sizeof(Node));
-    new_node->user = user;
-    new_node->next = NULL;
-
-    if (*head == NULL) {
-        *head = new_node;
-    } else {
-        Node* current_node = *head;
-        while (current_node->next != NULL) {
-            current_node = current_node->next;
+    printf("\nList of all registered users:\n");
+    for (int i = 0; i < num_users; i++) {
+        printf("User %d:\n", i+1);
+        printf("Name: %s\n", users[i].name);
+        printf("Age: %d\n", users[i].age);
+        printf("Email: %s\n", users[i].email);
+        printf("Location: %s\n", users[i].location);
+        printf("Preferences: ");
+        for (int j = 0; j < 5; j++) {
+            printf("%s ", users[i].preferences[j]);
         }
-        current_node->next = new_node;
+        printf("\n");
     }
 }
 
-void list_users(Node* head) {
-    Node* current_node = head;
-    while (current_node != NULL) {
-        print_user(current_node->user);
-        printf("\n");
-        current_node = current_node->next;
+void operate_user() {
+    int user_choice;
+    printf("\nList of all registered users:\n");
+    for (int i = 0; i < num_users; i++) {
+        printf("%d. %s\n", i+1, users[i].name);
     }
+    printf("Enter the user number you want to operate as: ");
+    scanf("%d", &user_choice);
+
+    // Check if user choice is valid
+    if (user_choice < 1 || user_choice > num_users) {
+        printf("Invalid choice. Please try again.\n");
+        return;
+    }
+
+    // Display submenu options
+    int sub_choice;
+    do {
+        printf("\n\nOperating as %s\n", users[user_choice-1].name);
+        printf("1. Send friend request\n");
+        printf("2. Manage pending requests\n");
+        printf("3. Make a post\n");
+        printf("4. List the posts of the selected user\n");
+        printf("5. Return to the main menu\n");
+        printf("Enter your choice: ");
+        scanf("%d", &sub_choice);
+
+        // Call the appropriate function based on user choice
+        switch(sub_choice) {
+            case 1:
+                printf("Friend request sent!\n");
+                break;
+            case 2:
+                printf("Pending requests managed!\n");
+                break;
+            case 3:
+                printf("Post made successfully!\n");
+                break;
+            case 4:
+                printf("List of posts:\n");
+                // TODO: implement function to list posts
+                break;
+            case 5:
+                printf("Returning to main menu...\n");
+                break;
+            default:
+                printf("Invalid choice. Please try again.\n");
+        }
+    } while (sub_choice != 5);
 }
 
 
