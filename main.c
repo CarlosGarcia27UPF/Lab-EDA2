@@ -2,9 +2,16 @@
 #include <adoctint.h>
 #include "main.h"
 
+typedef struct user {
+    char username[50];
+    int age;
+    char email[50];
+    char location[50];
+    char preferences[5][50];
+} user;
 
 int main() {
-    User user;
+    user user;
 
     printf("Enter your username: ");
     scanf("%s", user.username);
@@ -119,13 +126,13 @@ void list_user_posts() {
 }
 
 typedef struct Node {
-    User user;
+    user user;
     struct Node* next;
 } Node;
 
 void print_user(User user);
 
-void add_user(Node** head, User user) {
+void add_user(Node** head, user user) {
     Node* new_node = malloc(sizeof(Node));
     new_node->user = user;
     new_node->next = NULL;
@@ -148,10 +155,6 @@ void list_users(Node* head) {
         printf("\n");
         current_node = current_node->next;
     }
-}
-
-void print_user(User user) {
-
 }
 
 
