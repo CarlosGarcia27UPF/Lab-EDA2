@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Oleh/CLionProjects/Lab-EDA2/cmake-build-debug",
-		"source" : "C:/Users/Oleh/CLionProjects/Lab-EDA2"
+		"build" : "C:/Users/user/CLionProjects/Lab-EDA2/cmake-build-debug",
+		"source" : "C:/Users/user/CLionProjects/Lab-EDA2"
 	},
 	"version" : 
 	{
