@@ -186,7 +186,6 @@ void quickSort(User arr[], int low, int high) {
 }
 
 
-
 void search_user() {
     char username[50];
     printf("Enter the username you want to search for: ");
