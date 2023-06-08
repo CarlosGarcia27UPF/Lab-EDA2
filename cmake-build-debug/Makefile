@@ -152,6 +152,78 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.s
 .PHONY : main.c.s
 
+menu.obj: menu.c.obj
+.PHONY : menu.obj
+
+# target to build an object file
+menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/menu.c.obj
+.PHONY : menu.c.obj
+
+menu.i: menu.c.i
+.PHONY : menu.i
+
+# target to preprocess a source file
+menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/menu.c.i
+.PHONY : menu.c.i
+
+menu.s: menu.c.s
+.PHONY : menu.s
+
+# target to generate assembly for a file
+menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/menu.c.s
+.PHONY : menu.c.s
+
+user.obj: user.c.obj
+.PHONY : user.obj
+
+# target to build an object file
+user.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/user.c.obj
+.PHONY : user.c.obj
+
+user.i: user.c.i
+.PHONY : user.i
+
+# target to preprocess a source file
+user.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/user.c.i
+.PHONY : user.c.i
+
+user.s: user.c.s
+.PHONY : user.s
+
+# target to generate assembly for a file
+user.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/user.c.s
+.PHONY : user.c.s
+
+utilities.obj: utilities.c.obj
+.PHONY : utilities.obj
+
+# target to build an object file
+utilities.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/utilities.c.obj
+.PHONY : utilities.c.obj
+
+utilities.i: utilities.c.i
+.PHONY : utilities.i
+
+# target to preprocess a source file
+utilities.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/utilities.c.i
+.PHONY : utilities.c.i
+
+utilities.s: utilities.c.s
+.PHONY : utilities.s
+
+# target to generate assembly for a file
+utilities.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/utilities.c.s
+.PHONY : utilities.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +236,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... menu.obj
+	@echo ... menu.i
+	@echo ... menu.s
+	@echo ... user.obj
+	@echo ... user.i
+	@echo ... user.s
+	@echo ... utilities.obj
+	@echo ... utilities.i
+	@echo ... utilities.s
 .PHONY : help
 
 

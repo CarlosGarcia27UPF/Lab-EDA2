@@ -82,19 +82,67 @@ CMakeFiles/untitled1.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/main.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\juget\CLionProjects\Lab-EDA2\main.c -o CMakeFiles\untitled1.dir\main.c.s
 
+CMakeFiles/untitled1.dir/utilities.c.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/utilities.c.obj: C:/Users/juget/CLionProjects/Lab-EDA2/utilities.c
+CMakeFiles/untitled1.dir/utilities.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juget\CLionProjects\Lab-EDA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled1.dir/utilities.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/utilities.c.obj -MF CMakeFiles\untitled1.dir\utilities.c.obj.d -o CMakeFiles\untitled1.dir\utilities.c.obj -c C:\Users\juget\CLionProjects\Lab-EDA2\utilities.c
+
+CMakeFiles/untitled1.dir/utilities.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/utilities.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\juget\CLionProjects\Lab-EDA2\utilities.c > CMakeFiles\untitled1.dir\utilities.c.i
+
+CMakeFiles/untitled1.dir/utilities.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/utilities.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\juget\CLionProjects\Lab-EDA2\utilities.c -o CMakeFiles\untitled1.dir\utilities.c.s
+
+CMakeFiles/untitled1.dir/user.c.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/user.c.obj: C:/Users/juget/CLionProjects/Lab-EDA2/user.c
+CMakeFiles/untitled1.dir/user.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juget\CLionProjects\Lab-EDA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled1.dir/user.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/user.c.obj -MF CMakeFiles\untitled1.dir\user.c.obj.d -o CMakeFiles\untitled1.dir\user.c.obj -c C:\Users\juget\CLionProjects\Lab-EDA2\user.c
+
+CMakeFiles/untitled1.dir/user.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/user.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\juget\CLionProjects\Lab-EDA2\user.c > CMakeFiles\untitled1.dir\user.c.i
+
+CMakeFiles/untitled1.dir/user.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/user.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\juget\CLionProjects\Lab-EDA2\user.c -o CMakeFiles\untitled1.dir\user.c.s
+
+CMakeFiles/untitled1.dir/menu.c.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/menu.c.obj: C:/Users/juget/CLionProjects/Lab-EDA2/menu.c
+CMakeFiles/untitled1.dir/menu.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juget\CLionProjects\Lab-EDA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled1.dir/menu.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/menu.c.obj -MF CMakeFiles\untitled1.dir\menu.c.obj.d -o CMakeFiles\untitled1.dir\menu.c.obj -c C:\Users\juget\CLionProjects\Lab-EDA2\menu.c
+
+CMakeFiles/untitled1.dir/menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/menu.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\juget\CLionProjects\Lab-EDA2\menu.c > CMakeFiles\untitled1.dir\menu.c.i
+
+CMakeFiles/untitled1.dir/menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/menu.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\juget\CLionProjects\Lab-EDA2\menu.c -o CMakeFiles\untitled1.dir\menu.c.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
-"CMakeFiles/untitled1.dir/main.c.obj"
+"CMakeFiles/untitled1.dir/main.c.obj" \
+"CMakeFiles/untitled1.dir/utilities.c.obj" \
+"CMakeFiles/untitled1.dir/user.c.obj" \
+"CMakeFiles/untitled1.dir/menu.c.obj"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
 
 untitled1.exe: CMakeFiles/untitled1.dir/main.c.obj
+untitled1.exe: CMakeFiles/untitled1.dir/utilities.c.obj
+untitled1.exe: CMakeFiles/untitled1.dir/user.c.obj
+untitled1.exe: CMakeFiles/untitled1.dir/menu.c.obj
 untitled1.exe: CMakeFiles/untitled1.dir/build.make
 untitled1.exe: CMakeFiles/untitled1.dir/linkLibs.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/objects1
 untitled1.exe: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\juget\CLionProjects\Lab-EDA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable untitled1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\juget\CLionProjects\Lab-EDA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable untitled1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
