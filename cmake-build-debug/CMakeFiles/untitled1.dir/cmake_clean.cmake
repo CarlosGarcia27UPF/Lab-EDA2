@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/main.c.obj"
   "CMakeFiles/untitled1.dir/main.c.obj.d"
+  "CMakeFiles/untitled1.dir/menu.c.obj"
+  "CMakeFiles/untitled1.dir/menu.c.obj.d"
+  "CMakeFiles/untitled1.dir/user.c.obj"
+  "CMakeFiles/untitled1.dir/user.c.obj.d"
+  "CMakeFiles/untitled1.dir/utilities.c.obj"
+  "CMakeFiles/untitled1.dir/utilities.c.obj.d"
   "libuntitled1.dll.a"
   "untitled1.exe"
   "untitled1.exe.manifest"
