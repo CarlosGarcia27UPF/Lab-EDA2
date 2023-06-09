@@ -51,16 +51,7 @@ CMakeFiles/untitled1.dir/user.c.obj: C:/Users/juget/CLionProjects/Lab-EDA2/user.
   C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h
 
 CMakeFiles/untitled1.dir/utilities.c.obj: C:/Users/juget/CLionProjects/Lab-EDA2/utilities.c \
   C:/Users/juget/CLionProjects/Lab-EDA2/utilities.h \
@@ -81,8 +72,6 @@ CMakeFiles/untitled1.dir/utilities.c.obj: C:/Users/juget/CLionProjects/Lab-EDA2/
   C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h
 
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
 
 C:/Users/juget/CLionProjects/Lab-EDA2/main.c:
 
@@ -118,8 +107,6 @@ C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Users/juget/CLionProjects/Lab-EDA2/utilities.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
-
 C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/string.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
@@ -128,18 +115,4 @@ C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Users/juget/CLionProjects/Lab-EDA2/menu.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
-
 C:/Users/juget/CLionProjects/Lab-EDA2/user.c:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/limits.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/x86_64-w64-mingw32/include/errno.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
