@@ -1,7 +1,6 @@
 #include "user.h"
 #include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 // Declare an array of User structs and an integer to keep track of the user count
 User users[MAX_USERS];
