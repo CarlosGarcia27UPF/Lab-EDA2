@@ -1,5 +1,5 @@
-CMakeFiles/untitled1.dir/main.c.obj: \
- C:\Users\juget\CLionProjects\Lab-EDA2\main.c \
+CMakeFiles/untitled1.dir/social_network.c.obj: \
+ C:\Users\juget\CLionProjects\Lab-EDA2\social_network.c \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -11,14 +11,18 @@ CMakeFiles/untitled1.dir/main.c.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/limits.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/time.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
  C:\Users\juget\CLionProjects\Lab-EDA2\social_network.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
  C:\Users\juget\CLionProjects\Lab-EDA2\color.h \
@@ -82,15 +86,6 @@ CMakeFiles/untitled1.dir/main.c.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/limits.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
@@ -213,6 +208,7 @@ CMakeFiles/untitled1.dir/main.c.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/shellapi.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winperf.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_bsd_types.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/inaddr.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \

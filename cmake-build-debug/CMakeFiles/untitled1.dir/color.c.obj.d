@@ -1,30 +1,16 @@
-CMakeFiles/untitled1.dir/main.c.obj: \
- C:\Users\juget\CLionProjects\Lab-EDA2\main.c \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+CMakeFiles/untitled1.dir/color.c.obj: \
+ C:\Users\juget\CLionProjects\Lab-EDA2\color.c \
+ C:\Users\juget\CLionProjects\Lab-EDA2\color.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/time.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
- C:\Users\juget\CLionProjects\Lab-EDA2\social_network.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
- C:\Users\juget\CLionProjects\Lab-EDA2\color.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/excpt.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -42,6 +28,8 @@ CMakeFiles/untitled1.dir/main.c.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/basetsd.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/guiddef.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
@@ -213,6 +201,7 @@ CMakeFiles/untitled1.dir/main.c.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/shellapi.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winperf.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_bsd_types.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/inaddr.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \

@@ -128,6 +128,30 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
+color.obj: color.c.obj
+.PHONY : color.obj
+
+# target to build an object file
+color.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/color.c.obj
+.PHONY : color.c.obj
+
+color.i: color.c.i
+.PHONY : color.i
+
+# target to preprocess a source file
+color.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/color.c.i
+.PHONY : color.c.i
+
+color.s: color.c.s
+.PHONY : color.s
+
+# target to generate assembly for a file
+color.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/color.c.s
+.PHONY : color.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -152,77 +176,29 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.s
 .PHONY : main.c.s
 
-menu.obj: menu.c.obj
-.PHONY : menu.obj
+social_network.obj: social_network.c.obj
+.PHONY : social_network.obj
 
 # target to build an object file
-menu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/menu.c.obj
-.PHONY : menu.c.obj
+social_network.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/social_network.c.obj
+.PHONY : social_network.c.obj
 
-menu.i: menu.c.i
-.PHONY : menu.i
-
-# target to preprocess a source file
-menu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/menu.c.i
-.PHONY : menu.c.i
-
-menu.s: menu.c.s
-.PHONY : menu.s
-
-# target to generate assembly for a file
-menu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/menu.c.s
-.PHONY : menu.c.s
-
-user.obj: user.c.obj
-.PHONY : user.obj
-
-# target to build an object file
-user.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/user.c.obj
-.PHONY : user.c.obj
-
-user.i: user.c.i
-.PHONY : user.i
+social_network.i: social_network.c.i
+.PHONY : social_network.i
 
 # target to preprocess a source file
-user.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/user.c.i
-.PHONY : user.c.i
+social_network.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/social_network.c.i
+.PHONY : social_network.c.i
 
-user.s: user.c.s
-.PHONY : user.s
-
-# target to generate assembly for a file
-user.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/user.c.s
-.PHONY : user.c.s
-
-utilities.obj: utilities.c.obj
-.PHONY : utilities.obj
-
-# target to build an object file
-utilities.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/utilities.c.obj
-.PHONY : utilities.c.obj
-
-utilities.i: utilities.c.i
-.PHONY : utilities.i
-
-# target to preprocess a source file
-utilities.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/utilities.c.i
-.PHONY : utilities.c.i
-
-utilities.s: utilities.c.s
-.PHONY : utilities.s
+social_network.s: social_network.c.s
+.PHONY : social_network.s
 
 # target to generate assembly for a file
-utilities.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/utilities.c.s
-.PHONY : utilities.c.s
+social_network.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/social_network.c.s
+.PHONY : social_network.c.s
 
 # Help Target
 help:
@@ -233,18 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled1
+	@echo ... color.obj
+	@echo ... color.i
+	@echo ... color.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... menu.obj
-	@echo ... menu.i
-	@echo ... menu.s
-	@echo ... user.obj
-	@echo ... user.i
-	@echo ... user.s
-	@echo ... utilities.obj
-	@echo ... utilities.i
-	@echo ... utilities.s
+	@echo ... social_network.obj
+	@echo ... social_network.i
+	@echo ... social_network.s
 .PHONY : help
 
 

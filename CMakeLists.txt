@@ -3,6 +3,6 @@ project(untitled1 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled1 main.c main.h utilities.c user.c menu.c)
+add_executable(untitled1 main.c color.c color.h social_network.c social_network.h)
 #include <stdio.h>
 

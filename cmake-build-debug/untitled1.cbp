@@ -76,28 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/color.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/color.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/main.c">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/main.h">
+		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/social_network.c">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/menu.c">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/menu.h">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/user.c">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/user.h">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/utilities.c">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/utilities.h">
+		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/social_network.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/juget/CLionProjects/Lab-EDA2/CMakeLists.txt">
