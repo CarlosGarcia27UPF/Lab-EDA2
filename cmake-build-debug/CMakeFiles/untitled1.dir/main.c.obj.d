@@ -1,5 +1,5 @@
 CMakeFiles/untitled1.dir/main.c.obj: \
- C:\Users\juget\CLionProjects\Lab-EDA2\main.c \
+ C:\Users\Oleh\CLionProjects\Lab-EDA2\main.c \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -19,9 +19,9 @@ CMakeFiles/untitled1.dir/main.c.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
- C:\Users\juget\CLionProjects\Lab-EDA2\social_network.h \
+ C:\Users\Oleh\CLionProjects\Lab-EDA2\social_network.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
- C:\Users\juget\CLionProjects\Lab-EDA2\color.h \
+ C:\Users\Oleh\CLionProjects\Lab-EDA2\color.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/excpt.h \

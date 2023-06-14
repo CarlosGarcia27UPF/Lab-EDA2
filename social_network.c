@@ -19,6 +19,7 @@ User* create_user() {
     scanf("%d", &user->age);
     printf("Enter email: ");
     scanf("%s", user->email);
+
     printf("Enter location: ");
     scanf("%s", user->location);
 

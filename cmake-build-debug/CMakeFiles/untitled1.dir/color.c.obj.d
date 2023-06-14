@@ -1,6 +1,6 @@
 CMakeFiles/untitled1.dir/color.c.obj: \
- C:\Users\juget\CLionProjects\Lab-EDA2\color.c \
- C:\Users\juget\CLionProjects\Lab-EDA2\color.h \
+ C:\Users\Oleh\CLionProjects\Lab-EDA2\color.c \
+ C:\Users\Oleh\CLionProjects\Lab-EDA2\color.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \

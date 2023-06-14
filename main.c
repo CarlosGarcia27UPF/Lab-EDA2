@@ -110,6 +110,7 @@ int main() {
                         }
                         case 2:
                             // Manage pending friend requests for the user
+                            printf("Pending requests:\n");
                             manage_requests(user);
                             break;
                         case 3: {
@@ -118,6 +119,9 @@ int main() {
                             printf("Enter the post text: ");
                             scanf(" %[^\n]s", text);
                             make_post(user, text);
+                            set_color(GREEN);
+                            printf("Post made successfully!!\n");
+                            set_color(WHITE);
 
                             // Update the global word list with words from the post
                             char *word = strtok(text, " ");
@@ -129,10 +133,15 @@ int main() {
                         }
                         case 4:
                             // List the user's posts
+                            printf("Posts:\n");
                             list_posts(user);
                             break;
                         case 5:
                             // Return to the main menu
+                            set_color(RED);
+                            printf("Returning...");
+                            set_color(WHITE);
+
                             break;
                         default:
                             set_color(RED);
@@ -154,8 +163,6 @@ int main() {
                 set_color(BLUE);
                 printf("\nIt took %f seconds to display the most used words\n", cpu_time_used);
                 set_color(WHITE);
-                // Free memory for the top_words list
-                free_word_list(top_words);
                 break;
             }
             case 5:
