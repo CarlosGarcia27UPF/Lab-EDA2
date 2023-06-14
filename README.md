@@ -65,6 +65,7 @@ Improvements: Use heap
 
 Time Taken: 2 hours
 Location: count_word(), most_common_words() in social_network.c
+
 Mandatory objectives met:
 We have implemented a dynamic list to save our registered users.
 We have implemented a linear search algorithm to search for a specific user to operate with when the person types that user.
