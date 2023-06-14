@@ -68,7 +68,7 @@ Location: count_word(), most_common_words() in social_network.c
 Mandatory objectives met:
 We have implemented a dynamic list to save our registered users.
 We have implemented a linear search algorithm to search for a specific user to operate with when the person types that user.
-We have implemented a BubbleSort algorithm in the list of registered users to sort the users by alphabetical order so that when all registered users are displayed they are ordered.
+We have implemented a Insetrion Sort algorithm in the list of registered users to sort the users by alphabetical order so that when all registered users are displayed they are ordered.
 We have implemented a dictionary so that all the posts that users post go through the dictionary and in that way we can display the top 3 most used words in all posts.
 We have commented on all important parts of the code so it's easy to understand.
 We have used github to share the code between the members of the group.
